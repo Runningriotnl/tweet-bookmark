@@ -1,0 +1,16 @@
+ul.list {
+    padding: 0;
+    list-style: none;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  .list li {
+    padding: 10px 20px;
+  }
+  
+  .list li + li {
+    border-top: 1px solid #ccc;
+  }
